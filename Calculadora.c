@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+//Funcion secundaria 
 void calculadora(int *a, int *b)
 {
     int suma,multi,resta;
@@ -14,7 +14,7 @@ void calculadora(int *a, int *b)
     raizCuadrada_B = sqrt(*b);
     printf("Resultado:| %i | %i | %i | %f | %f | %f |",suma,resta,multi,division,raizCuadrada_A,raizCuadrada_B);
 }
-
+//Funcion Principal
 void main(void)
 {
     int a,b,c;
